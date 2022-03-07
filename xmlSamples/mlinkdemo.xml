@@ -1,0 +1,83 @@
+<?xml-stylesheet href="mlinks.xsl.xml" type="text/xsl" ?>
+<html>
+  <head>
+     <title>Multi-ended Links: Often Handy</title>
+     <link href="mlink.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <h1>Multi-ended Links: Often Handy</h1>
+	 <p>In past <a href='http://www.xml.com/pub/q/transformingxml'>Transforming
+XML</a> installments, I have written multi-part columns on topics such as
+
+  <multilink id="l001" type="columns">
+    <title>XML.com columns on controlling whitespace</title>
+    <indicator>controlling whitespace</indicator>
+    <linkend title="Controlling Whitespace, Part 1"
+	          URI="http://www.xml.com/pub/a/2001/11/07/whitespace.html"/>
+    <linkend title="Controlling Whitespace, Part 2"
+	          URI="http://www.xml.com/pub/a/2001/12/05/whitespace.html"/>
+    <linkend title="Controlling Whitespace, Part 3"
+	          URI="http://www.xml.com/pub/a/2002/01/02/whitespace.html"/>
+  </multilink>
+
+and
+
+  <multilink id="l002" type="columns">
+    <title>columns on XPath Axes</title>
+    <indicator>XPath axes</indicator>
+    <linkend title="Axis Powers: Part One"
+	          URI="http://www.xml.com/pub/a/2000/12/20/xpathaxes.html"/>
+    <linkend title="Axis Powers: Part Two"
+	          URI="http://www.xml.com/pub/a/2001/01/03/xpathaxes.html"/>
+  </multilink> 
+
+because there was so much to say about them. Once the 
+
+  <multilink id="l003" type="specs">
+    <title>specs necessary to understand XSLT</title>
+    <indicator>relevant specs</indicator>
+    <linkend title="W3C XSLT Recommendation"
+	          URI="http://www.w3.org/TR/xslt"/>
+    <linkend title="W3C XPath Recommendation"
+	          URI="http://www.w3.org/TR/xpath"/>
+  </multilink> 
+
+become 2.0 Recommendations, many other aspects of XSLT will require long
+explanations. For a good source of complicated issues to write about, maybe
+someone should do a regular column about the
+
+  <multilink id="l004" type="specs">
+    <title>IETF RFCs on URIs and URLs</title>
+    <indicator>specs</indicator>
+    <linkend title="RFC 1738: Uniform Resource Locators (URL)"
+	          URI="http://www.rfc-editor.org/cgi-bin/rfcdoctype.pl?loc=RFC&amp;letsgo=1738&amp;type=ftp&amp;file_format=txt"/>
+    <linkend title="RFC 1808: Relative Uniform Resource Locators"
+	          URI="http://www.rfc-editor.org/cgi-bin/rfcdoctype.pl?loc=RFC&amp;letsgo=1808&amp;type=ftp&amp;file_format=txt"/>
+    <linkend title="RFC 1630: Universal Resource Identifiers in WWW"
+	          URI="http://www.rfc-editor.org/cgi-bin/rfcdoctype.pl?loc=RFC&amp;letsgo=1630&amp;type=ftp&amp;file_format=txt"/>
+    <linkend title="RFC 2396: Uniform Resource Identifiers (URI): Generic Syntax"
+	          URI="http://www.rfc-editor.org/cgi-bin/rfcdoctype.pl?loc=RFC&amp;letsgo=2396&amp;type=ftp&amp;file_format=txt"/>
+    <linkend title="RFC 3305: URIs, URLs, and URNs"
+	          URI="http://www.rfc-editor.org/cgi-bin/rfcdoctype.pl?loc=RFC&amp;letsgo=3305&amp;type=ftp&amp;file_format=txt"/>
+  </multilink> 
+
+and 
+
+  <multilink id="l005" type="postings">
+    <title>start of recent xml-dev URI debate threads</title>
+    <indicator>debates</indicator>
+    <linkend title="[xml-dev] many-to-many"
+	          URI="http://lists.xml.org/archives/xml-dev/200301/msg00631.html"/>
+    <linkend title="[xml-dev] Are There URIs in Heaven?"
+	          URI="http://lists.xml.org/archives/xml-dev/200301/msg00920.html"/>
+    <linkend title="[xml-dev] URIs, authorities and expectations of dereferencability"
+	          URI="http://lists.xml.org/archives/xml-dev/200212/msg00649.html"/>
+    <linkend title="[xml-dev] Namespace URI question"
+	          URI="http://lists.xml.org/archives/xml-dev/200212/msg00364.html"/>
+  </multilink> 
+
+around URIs!</p>
+
+  </body>
+</html>
+
